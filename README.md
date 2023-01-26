@@ -18,4 +18,4 @@
 
 
 # แหล่งข้อมูล
-[Playlist Data Structure and Alogrithm ของช่อง Simple Snippets](https://www.youtube.com/playlist?list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG)
+[Youtube Playlist เรื่อง Data Structure and Alogrithm ของช่อง Simple Snippets](https://www.youtube.com/playlist?list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG)
