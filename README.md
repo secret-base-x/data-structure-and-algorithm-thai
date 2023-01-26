@@ -1,2 +1,9 @@
-# data-structure-and-algorithm-thai
-สอน Data Structure และ Algorithm ในภาษาไทย
+# สอน Data Structure และ Algorithm ในภาษาไทย
+
+
+# Data Structure
+
+## Data Structure คืออะไร
+- วิธีการจัดเก็บข้อมูลฝยรูปแบบที่***เฉพาะเจาะจง***
+- ทำให้สามารถ***ค้นหา***ข้อมูลและ**ดึง***ข้อมูลได้อย่าง***มีประสิทธิภาพ***
+- Data Structure ***ที่เฉพาะเจาะจง*** เหมาะสำหรับรูปแบบของปัญหา ***ที่เฉพาะเจาะจง***
