@@ -33,8 +33,8 @@ int main() {
 
     for (int i = 0; i < 4; i++) {
         std::cout << "Memory address of myArray[" << i << "]: ";
-        std::cout << "0x" << std::hex << (unsigned long)&myArray[i] << " (base 16) "; // cast the address to unsigned long to print it as hexadecimal
-        std::cout << std::dec << (unsigned long)&myArray[i] << " (base 10)" << std::endl;
+        std::cout << &myArray[i] << " (base 16) "; // cast the address to unsigned long to print it as hexadecimal
+        std::cout << (unsigned long)&myArray[i] << " (base 10)" << std::endl;
     }
     return 0;
 }
