@@ -16,6 +16,12 @@
 - ในแผนที่ถ้าเราต้องการเก็บข้อมูลเป็น Location ก็อาจจะเก็บเป็น X,Y นี่ก็เป็นตัวอย่างของการเก็บข้อมูล
 - การจัดเก็บข้อมูลใน Excel ที่เก็บเป็นรูปแบบตารางแบบ Row และ Column และสามารถหาจำนวนมากสุดได้ หาค่าเฉลี่ยได้ เป็นอีกตัวอย่างนึงของ Data Structure
 
+## Array 
+- Array โครงสร้างข้อมูลประเภทเดียวกัน (เช่น Int, String) ที่ถูกมัดรวมไว้เป็น Collections มี Address ที่ติดๆ กันใน RAM สามารถอ้างถึงแต่ละอันได้ด้วย Index
+- Array เป็นหนึ่งในรูปแบบของ Data structure ที่พื้นฐานที่สุด
+- ในภาษาโปรแกรมมิ่งจำนวนมากก็มักจะมี Array มาให้ใช้งานอยู่แล้ว
+- พวกโครงสร้างข้อมูลอย่าง Stack, Queue, Graph แบบนี้เราต้องมี Implement เอาเองแต่ Array นี่คือมีให้มาอยู่แล้วตั้งแต่ระดับของภาษาโปรแกรมมิ่ง
+
 
 # แหล่งข้อมูล
 [Youtube Playlist เรื่อง Data Structure and Alogrithm ของช่อง Simple Snippets](https://www.youtube.com/playlist?list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG)
