@@ -23,5 +23,31 @@
 - พวกโครงสร้างข้อมูลอย่าง Stack, Queue, Graph แบบนี้เราต้องมี Implement เอาเองแต่ Array นี่คือมีให้มาอยู่แล้วตั้งแต่ระดับของภาษาโปรแกรมมิ่ง
 
 
+
+```cpp
+#include <iostream>
+#include <cstdlib>
+
+int main() {
+    int myArray[4] = {1, 2, 3, 4};
+
+    for (int i = 0; i < 4; i++) {
+        std::cout << "Memory address of myArray[" << i << "]: ";
+        std::cout << "0x" << std::hex << (unsigned long)&myArray[i] << " (base 16) "; // cast the address to unsigned long to print it as hexadecimal
+        std::cout << std::dec << (unsigned long)&myArray[i] << " (base 10)" << std::endl;
+    }
+    return 0;
+}
+```
+
+```zsh
+Memory address of myArray[0]: 0x16f93f590 (base 16) 6166934928 (base 10)
+Memory address of myArray[1]: 0x16f93f594 (base 16) 6166934932 (base 10)
+Memory address of myArray[2]: 0x16f93f598 (base 16) 6166934936 (base 10)
+Memory address of myArray[3]: 0x16f93f59c (base 16) 6166934940 (base 10)
+```
+
+จากตัวอย่างนี้จะพบว่าตำแหน่งใน Memory (หน่วยความจำ) ใยฐาน 10 จะต่างกันที่ละ 4 ต่อ Index เพราะ Int ใช้พื้นที่หน่วยความจำ 4 bytes โดย 1 Memory Location นั้นจะเก็บ 1 Byte (8 Bits)
+
 # แหล่งข้อมูล
 [Youtube Playlist เรื่อง Data Structure and Alogrithm ของช่อง Simple Snippets](https://www.youtube.com/playlist?list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG)
