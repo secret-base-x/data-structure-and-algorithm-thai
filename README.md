@@ -49,5 +49,7 @@ Memory address of myArray[3]: 0x16f93f59c (base 16) 6166934940 (base 10)
 
 จากตัวอย่างนี้จะพบว่าตำแหน่งใน Memory (หน่วยความจำ) ใยฐาน 10 จะต่างกันที่ละ 4 ต่อ Index เพราะ Int ใช้พื้นที่หน่วยความจำ 4 bytes โดย 1 Memory Location นั้นจะเก็บ 1 Byte (8 Bits)
 
+การที่ตำแหน่งของข้อมูลในหน่วยความจำอยู่ติดกัน ทำให้การเข้าถึง Index ที่ต้องการสามารถเข้าถึงได้ง่ายเร็วและสะดวก
+
 # แหล่งข้อมูล
 [Youtube Playlist เรื่อง Data Structure and Alogrithm ของช่อง Simple Snippets](https://www.youtube.com/playlist?list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG)
